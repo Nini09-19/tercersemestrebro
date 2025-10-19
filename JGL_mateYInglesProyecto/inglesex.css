@@ -1,0 +1,18 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-image: url('b2.jpg'); /* Cambia esto por la ruta de tu imagen */
+    background-size: cover; /* Ajusta la imagen para cubrir completamente el cuerpo sin deformarse */
+    background-position: center; /* Centra la imagen de fondo */
+
+    color: white; /* Cambia el color del texto para que sea visible sobre el fondo */
+}
+
+.question {
+    margin-bottom: 20px;
+}
+
+.result {
+    margin-top: 20px;
+    font-weight: bold;
+}

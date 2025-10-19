@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Distancia</title>
+    <link rel="stylesheet" href="matexa.css">
+    <link rel="icon" href="logo.png" type="image/x-icon">
+
+</head>
+<body>
+    <body>      <a href="index.html"><img src="logo.png" align="left" height="75" width="75"></a>
+
+    <center><div class="container">
+        <h1>Contesta la fórmula correctamente</h1>
+        <p>Fórmula: d = √((x₂ - x₁)² + (y₂ - y₁)²)</p>
+
+        <h2>Los valores son los siguientes:</h2>
+        <p>x₁ = 2, y₁ = 3, x₂ = 7, y₂ = 8</p>
+
+        <h3>Paso 1: Sustitución en la fórmula</h3>
+        <p>d = √((<input type="text" id="input-x2" placeholder="x₂"> - <input type="text" id="input-x1" placeholder="x₁">)² + (<input type="text" id="input-y2" placeholder="y₂"> - <input type="text" id="input-y1" placeholder="y₁">)²)</p>
+
+        <h3>Paso 2: Resta los valores</h3>
+        <p>d = √((<input type="text" id="input-restaX" placeholder="x₂ - x₁">)² + (<input type="text" id="input-restaY" placeholder="y₂ - y₁">)²)</p>
+
+        <h3>Paso 3: Eleva al cuadrado</h3>
+        <p>d = √(<input type="text" id="input-cuadradoX" placeholder="(x₂ - x₁)²"> + <input type="text" id="input-cuadradoY" placeholder="(y₂ - y₁)²">)</p>
+
+        <h3>Paso 4: Suma los cuadrados</h3>
+        <p>d = √(<input type="text" id="input-sumaCuadrados" placeholder="suma de cuadrados">)</p>
+
+        <h3>Paso 5: Resultado final</h3>
+        <p>d = <input type="text" id="input-resultadoFinal" placeholder="resultado final"></p>
+
+        <button onclick="calcular()">Calcular</button>
+        
+        <div id="error-mensajes" class="error-mensajes"></div>
+        <p id="mensaje" class="mensaje"></p>
+    </div>
+</center>
+<center><a href="ecuaciones.html"><img src="fl.jpg" width="50" height="50"></a></center><br>
+    <script src="matexa.js"></script>
+</body>
+</html>
