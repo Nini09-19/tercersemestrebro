@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cálculo de Área y Perímetro</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="logo.png" type="image/x-icon">
+    
+	<!--HECHO POR JGL-->
+</head>
+<body>
+    <h1>Cálculo de Área y Perímetro</h1>
+    <body style="background-color: #f747f7;">
+    <label for="shape">Selecciona una figura:</label>
+    <select id="shape" onchange="mostrarInputs()">
+        <option value="sel">seleccionar</option>
+        <option value="cuadrado">Cuadrado</option>
+        <option value="rectangulo">Rectángulo</option>
+        <option value="triangulo">Triángulo</option>
+        <option value="circulo">Círculo</option>
+    </select>
+    
+    <div id="inputs"></div>
+    
+    <button onclick="calcular()">Calcular</button>
+    
+    <div id="result"></div>
+
+    <script src="lab7.js"></script>
+    <center><img src="per.jpg" height="400" width="400"></center><br>
+    <center><a href="index.html"><img src="home.png" width="50" height="50"></a></center>
+</body>
+</html>
